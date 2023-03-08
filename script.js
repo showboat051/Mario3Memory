@@ -1,15 +1,24 @@
 //**********************UNIT RESOURCES************************************** */
 const cards = document.querySelectorAll('.card');
+const cardArray = [
+   {
+    name: 'flower',
+    img: 'images/fireFlower.png.jpg'
+   },
+   {
+    name: 'mushroom',
+    img: 'images/mushroom.jpg'
+   },
+   {
+    name: 'star',
+    img: 'images/Star.webp'
+   }
+]
 
-
-
-
-// // BUTTON CLICKS
-// for (var i = 0; i < cards.length; i++) {
-//     cards[i].addEventListener("click", function() {
-//         console.log("clickeddd");
-//     })
+// for(i = 0, i < cards.length, i++) {
+    
 // }
+
 
 // Flip Card
 function flipCard() {
