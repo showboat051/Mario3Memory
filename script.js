@@ -15,9 +15,7 @@ const cardArray = [
    }
 ]
 
-// for(i = 0, i < cards.length, i++) {
-    
-// }
+
 
 
 // Flip Card
@@ -26,3 +24,9 @@ function flipCard() {
 }
 
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+// // Hide the card on click
+// function hideCard () {
+//    this.classList.style.display = "none";
+  
+// }
