@@ -43,8 +43,11 @@ body {
     background: radial-gradient(rgb(178, 11, 11), rgb(6, 163, 6))
 }
 
-.front-face,
-.back-face {
+.front-card,
+.back-card {
     backface-visibility: hidden;
 }
 
+/* flippedCard {
+    
+} */
