@@ -1,21 +1,21 @@
-.gameBoard { 
+#gameSpace { 
     display: grid;
-    /* grid-template-columns: auto auto auto;
-    grid-template-columns: 50px 100px 150px;
-    grid-template-columns: 25% 50% 25%;
-    grid-template-columns: 100px 20% auto;
-    grid-template-columns: repeat(3, auto);
-
-    grid-gap: 20px;
-
-    grid-column-gap: 10px;
-    grid-row-gap: 30px; */
 
     grid-template-columns: repeat(3, 200px);
-    /* grid-template-columns: 0.5fr 0.5fr 0.5fr; */
     grid-gap: 20px;
     gap: 20px;
+
+    
 }
+
+
+
+div {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 2px solid red;
+  }
 
 .card {
     border: 30px;
