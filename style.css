@@ -10,15 +10,15 @@
 
 
 
-div {
+/* div {
     width: 200px;
     height: 200px;
     text-align: center;
     border: 2px solid red;
-  }
+  } */
 
 .card {
-    border: 30px;
+    border: 30px black;
     /* background-image:url("Assets/images/1up.jpg"); */
     justify-content: center;
     gap: 30px;
@@ -35,18 +35,12 @@ img {
     object-fit: contain;
 }
 
-.card.flip {
-    transform: rotateY(180deg)
-}
+
 
 body {
     background: radial-gradient(rgb(178, 11, 11), rgb(6, 163, 6))
 }
 
-.front-card,
-.back-card {
-    backface-visibility: hidden;
-}
 
 /* flippedCard {
     
