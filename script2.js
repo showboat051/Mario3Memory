@@ -3,11 +3,22 @@ const start = document.getElementById('startButton');
 const gameSpace = document.getElementById('gameSpace'); 
 const gameBoard = document.getElementById('gameBoard'); 
 
-var data = [
-    ["A", "B", "C"],
-    ["D", "E", "F"],
-    ["G", "H", "I"]
-  ];
+var cardArray = [
+    {
+        name: 'fireFlower',
+        img: 'images/fireFlower.png.jpg'
+    },
+    {
+        name: 'mushroom',
+        img: 'images/mushroom.jpg'
+    },
+    {
+        name: 'star',
+        img: 'images/Star.webp'
+    }
+
+
+];
 
 
 
@@ -15,17 +26,20 @@ var data = [
 // Start Game
 function startGame() {
 
-    makeGameBoard();
 } // startGame()
 
+makeGameBoard();
 
 
 
 // Make gameboard
 function makeGameBoard() {
-    for (let i = 0; i < 9; i++) {
-        let newDiv = document.createElement("div")
-        gameSpace.appendChild(newDiv);
-    }
+   for (let i = 0; i < cardArray.length; i++) {
+        var card = document.createElement('img')
+        card.setAttribute('src', 'Assets/images/1up.jpg')
+        card.setAttribute('card-id', i)
+        // card.addEventListener('click', flipCard)
+        gameBoard.appendChild(card)
+   }
 
 } // makeGameBoard()
