@@ -40,6 +40,9 @@ function makeGameBoard() {
         card.setAttribute('card-id', i)
         // card.addEventListener('click', flipCard)
         gameBoard.appendChild(card)
+        card.addEventListener('click', function(e) {
+            console.log("you clicked");
+        })
    }
 
 } // makeGameBoard()
