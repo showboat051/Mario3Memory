@@ -15,6 +15,18 @@ var cardArray = [
     {
         name: 'star',
         img: 'images/Star.webp'
+    },
+    {
+        name: 'blueFlower',
+        img: 'images/blueFlower.jpg'
+    },
+    {
+        name: 'SMB',
+        img: 'images/SMBboxArt.jpg'
+    },
+    {
+        name: 'SMB3',
+        img: 'images/SMB3boxArt.jpg'
     }
 
 
