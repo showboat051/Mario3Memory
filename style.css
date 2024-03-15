@@ -1,4 +1,4 @@
-#gameBoard { 
+/* #gameBoard { 
     display: grid;
 
     grid-template-columns: repeat(3, 200px);
@@ -6,7 +6,24 @@
     gap: 20px;
 
     
+} */
+
+.cards {
+    margin: 40px auto;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 16px;
 }
+
+.card {
+   height: 100px;
+   background: #111111;
+   border: 5px solid #444444;
+   cursor: pointer; 
+}
+
+
 
 
 
@@ -17,17 +34,17 @@
     border: 2px solid red;
   } */
 
-.card {
+/* .card {
     border: 30px black;
     /* background-image:url("Assets/images/1up.jpg"); */
-    justify-content: center;
+    /* justify-content: center;
     gap: 30px;
     height: 175px;
     width: 125px;
-    object-fit: contain;
+    object-fit: contain; */
     /* max-width: 100%;
     max-width: 100%; */
-}
+/* } */ 
 
 img {
     width: 100px;
